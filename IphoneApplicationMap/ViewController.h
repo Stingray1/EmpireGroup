@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    
+    __strong IBOutlet UITextField *usernameTextField;
+      NSDictionary *credentialDictionary;
+    __strong IBOutlet UITextField *passwordTextField;
+}
+- (IBAction)Login:(UIButton *)sender;
 
 @end
 
